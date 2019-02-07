@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* MY CODE */
+#container {	
+	font-family:  Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.table td,
+.header {
+	border: 1px solid #bdc3c7;
+	padding: 8px;
+}
+.table tr:nth-child(even){
+	background-color: #ecf0f1;
+}
+.table tr:hover {
+	background-color: #95a5a6;
+}
+.header {
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #16a085;
+    color: white;
+}
+h1 {
+	text-align: center;
+	color: #2980b9;
+}
+#people_table {
+	margin: auto;
+    width: 50%;    
+    padding: 10px;
+	
+}
